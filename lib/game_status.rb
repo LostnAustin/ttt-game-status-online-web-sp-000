@@ -47,9 +47,9 @@ end
 
 def winner(board)
   if winning_combo = won?(board)
-   winning_combo[0] == board[0]
+   winning_combo[0] == board
     return "X"
-  else winning_combo[1] == board[1]
+  else winning_combo[1] == board
     return "O"
   end
 end
