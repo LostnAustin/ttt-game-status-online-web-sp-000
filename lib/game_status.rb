@@ -46,7 +46,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) == true
-    return board(token)
+  if won?(board)
+    return "X" || "O"
   end
 end
