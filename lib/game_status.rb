@@ -52,4 +52,3 @@ def winner(board)
    winning_combo == board[ winning_combo[1]]
     return winning_combo[1]
   end
-end
