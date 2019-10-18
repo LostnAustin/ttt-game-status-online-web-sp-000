@@ -46,9 +46,10 @@ def over?(board)
 end
 
 def winner(board)
-   winning_combo = won?(board)
+  if winning_combo = won?(board)
    winning_combo == board[ winning_combo[0]]
     return winning_combo[0]
    winning_combo == board[ winning_combo[1]]
     return winning_combo[1]
   end
+end
